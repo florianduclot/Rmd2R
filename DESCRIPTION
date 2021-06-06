@@ -1,16 +1,19 @@
 Package: Rmd2R
-Title: What the Package Does (One Line, Title Case)
+Title: Write R Script From Rmarkdown File
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Florian",
+           family = "Duclot",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+           email = "fduclot@fsu.edu",
+           comment = c(ORCID = "0000-0003-0121-5807"))
+Description: `Rmd2R` leverages `knitr::purl()` to simply convert the currently active Rmarkdown
+    document to a R script.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+Imports: 
+    knitr,
+    rstudioapi

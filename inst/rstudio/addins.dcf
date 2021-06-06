@@ -1,0 +1,4 @@
+Name: Knit to R script
+Description: Uses `knitr::purl()` to convert the currently active Rmarkdown document to a R script.
+Binding: Rmd2R
+Interactive: false
