@@ -17,3 +17,5 @@ RoxygenNote: 7.1.1
 Imports: 
     knitr,
     rstudioapi
+URL: https://github.com/florianduclot/Rmd2R
+BugReports: https://github.com/florianduclot/Rmd2R/issues
